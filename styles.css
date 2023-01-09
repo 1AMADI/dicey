@@ -37,6 +37,10 @@ body{
     border-radius: 20%;
     cursor: pointer;
     padding: 20px;
-
+}
+@media(max-width: 768px){
+    .dice-1,.dice-2{
+        width: 200px;
+    }
 
 }
