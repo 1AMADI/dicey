@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #181620;
+
+}
+.top-text ,h2{
+
+    margin: 30px 0;
+    font-family: 'Silkscreen', cursive;
+    text-align: center;
+    font-size:48px;
+}
+.main-content{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.player-1{
+    margin-right: 50px;
+}
+.roll-button{
+    display: flex;
+    justify-content: center;
+    margin: 50px 0;
+    flex-basis: 50px;
+
+}
+.button-1{
+    background-color: gray;
+    border:0px;
+    color: #fff;
+    font-size: 20px;
+    font-family: Arial;
+    border-radius: 20%;
+    cursor: pointer;
+    padding: 20px;
+
+
+}
