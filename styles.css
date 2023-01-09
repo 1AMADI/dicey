@@ -4,12 +4,16 @@
 }
 body{
     background: #181620;
+    font-family: 'Silkscreen', cursive;
 
+}
+h3{
+    text-align: center;
 }
 .top-text ,h2{
 
     margin: 30px 0;
-    font-family: 'Silkscreen', cursive;
+    
     text-align: center;
     font-size:48px;
     color: black;
@@ -44,10 +48,14 @@ body{
 }
 @media(max-width: 768px){
     .dice-1,.dice-2{
-        width: 180px;
+        width: 40%;
+    }
+    h2{
+        font-size: 24px;
     }
 
 }
 .footer{
     color:white;
+
 }
